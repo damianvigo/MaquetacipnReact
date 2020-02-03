@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maquetación para el Master en Frameworks JavaScript</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="center">
+      <!-- LOGO -->
+      <div id="logo">
+        <img src="assets/images/react.svg" alt="" class="app-logo" alt="Logotipo" />
+        <span id="brand">
+          <strong>Curso</strong>React
+        </span>
+      </div>
+      <!-- MENU -->
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="formulario.html">Formulario</a>
+          </li>
+          <li>
+            <a href="#">Página 1</a>
+          </li>
+          <li>
+            <a href="#">Página 2</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </header>
+
+  <div class="center">
+    <section id="content">
+    
+        <article class="article-item article-detail">
+          <div class="image-wrap">
+            <img src="assets/images/paisaje.jpg" alt="">
+          </div>
+          <h1 class="subheader">Articulo de prueba</h1>
+          <span class="date">Hace 5 minutos</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam fermentum finibus. Morbi tincidunt scelerisque tortor non maximus. Etiam hendrerit, massa vitae consectetur tempus, nunc risus pharetra mi, in sollicitudin ante elit in dolor. Nullam mollis, quam quis commodo imperdiet, sapien tellus congue eros, ac rhoncus tortor magna sed metus. Aliquam faucibus ultrices arcu, ac porta libero vehicula ac. Curabitur at urna at ante dictum dignissim sit amet sed libero. Proin imperdiet vehicula purus, ac aliquam magna imperdiet dignissim. Sed vitae finibus quam. Phasellus posuere dignissim bibendum. Aenean tincidunt lacinia tristique.
+          </p>
+          <p>
+            Nulla ullamcorper ex nisl, dapibus vestibulum velit consectetur eu. Nullam bibendum nibh ac mauris interdum, ac convallis quam dignissim. Sed pellentesque nec erat quis pellentesque. Pellentesque orci sapien, tempus molestie cursus et, aliquam ut mi. Mauris augue purus, ullamcorper a diam in, lobortis suscipit felis. Nulla facilisi. Pellentesque ut nisi sed nunc efficitur tristique sit amet nec nulla. Duis dignissim sagittis sem, malesuada laoreet lacus vestibulum eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mattis gravida nulla, in blandit libero. Sed facilisis est enim, id ullamcorper leo semper eu. Morbi libero mauris, bibendum a ante quis, congue condimentum leo. Donec eget arcu vel nisi egestas efficitur at eu ipsum. Aliquam et urna aliquam, vestibulum tellus et, cursus dui. Maecenas nec metus ante. Vivamus eros leo, posuere vel efficitur eget, ullamcorper id ante.
+          </p>
+          <p>
+            Vivamus bibendum malesuada pretium. Fusce vehicula mauris sed metus pretium maximus. Ut sit amet tempus urna. Ut pharetra mi non eros sodales, at vulputate purus cursus. Donec ipsum ex, porttitor sit amet accumsan quis, vestibulum non ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris volutpat, justo non rutrum suscipit, magna metus tristique ipsum, gravida gravida nisl ipsum quis neque. Aliquam turpis neque, tristique at efficitur nec, tempus nec mi. Phasellus ipsum lorem, molestie id nibh vitae, tristique viverra turpis. Sed sollicitudin ac risus nec fermentum. Maecenas in porttitor enim, vitae placerat erat. Cras nibh risus, sollicitudin vel aliquet in, blandit id diam. Quisque sed ullamcorper elit, ac bibendum erat.
+          </p>
+          <div class="clearfix"></div>
+        </article>
+        <!-- Añadir Articulos via JS -->
+      
+    </section>
+
+   <!--  <script type="text/Javascript">
+      var template = document.getElementById('article-template');
+      var clonar = template.cloneNode(true);
+
+      for(var i = 0; i <= 5; i++) {
+        alert('Estamos en: ' +i);
+      }
+    </script> -->
+
+    <aside id="sidebar">  
+      <div id="nav-blog" class="sidebar-item">
+        <h3>Puedes hacer esto</h3>
+        <a href="#" class="btn btn-success">Crear artículo</a>
+      </div>
+      <div id="search" class="sidebar-item">
+        <h3>Buscador</h3>
+        <p>Encuentra el artículo que buscas</p>
+        <form action="">
+          <input type="text" name="search">
+          <input type="submit" name="submit" value="Buscar" class="btn">
+        </form>
+      </div>
+    </aside>  
+    <div class="clearfix"></div>
+  </div>
+
+  <footer id="footer">
+    <div class="center">
+      <p>
+        &copy; Master en frameworks para JavaScript - 2019 by Damián Vigo -
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
