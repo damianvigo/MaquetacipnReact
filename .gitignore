@@ -46,7 +46,7 @@ testem.log
 Thumbs.db
 
 # images
-.jpg
-.png 
-.gif 
-.jpeg
+*.jpg
+*.png 
+*.gif 
+*.jpeg
